@@ -16,7 +16,7 @@ def main():
     updater.idle()
     
 def greet_user(bot, update):
-    text = 'Привет!'
+    text = 'Privet'
     print(text)
     update.message.reply_text(text)
 
