@@ -25,3 +25,458 @@ telegram.ext.updater-ERROR-Error while getting Updates: Conflict: terminated by 
 telegram.ext.updater-ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
 telegram.ext.updater-WARNING-Exiting immediately!
 telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 28, in talk_to_me
+EOFError
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 24, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 24, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 24, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 23, in find_planet
+    dp.add_handler(MessageHandler(Filters.text))
+NameError: name 'dp' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 23, in find_planet
+    dp.add_handler(MessageHandler(Filters.text,find_planet))
+NameError: name 'dp' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    dp.add_handler(MessageHandler(Filters.text))
+NameError: name 'dp' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    dp.add_handler(MessageHandler(Filters.text))
+NameError: name 'dp' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+AttributeError: module 'ephem' has no attribute 'constellation'
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 25, in find_planet
+    planet_const = ephem.constellation(planet)
+ValueError: the sequence specifying a position must have exactly two coordinates
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 23, in find_planet
+    user_text = none
+NameError: name 'none' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: 'int' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: 'int' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: 'int' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: 'int' object is not callable
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 27, in find_planet
+    planet_name = user_text
+NameError: name 'user_text' is not defined
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 27, in find_planet
+    dp.add_handler(MessageHandler(Filters.text,get_answer))
+NameError: name 'dp' is not defined
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 28, in find_planet
+    planet_name = user_text
+NameError: name 'user_text' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 27, in find_planet
+    if user_text == 'Venus':
+NameError: name 'user_text' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 28, in find_planet
+    if user_text == 'Venus':
+NameError: name 'user_text' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 28, in find_planet
+    if user_text == 'Venus':
+NameError: name 'user_text' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 28, in find_planet
+    update.message.reply_text('Venus')
+NameError: name 'user_text' is not defined
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 30, in get_answer
+    reply = ephem.constellation(planet_selection(datetime.today()))
+AttributeError: module 'datetime' has no attribute 'today'
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 30, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 30, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 30, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 30, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.updater-WARNING-Exiting immediately!
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 32, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 32, in get_answer
+    planet_pos = planet_selection(datetime.date.today())
+TypeError: 'NoneType' object is not callable
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 40, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 40, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 41, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 41, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 42, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 42, in word_counter
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 44, in word_count
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.updater-ERROR-Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+telegram.ext.updater-ERROR-Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 51, in word_count
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 52, in word_count
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 57, in word_count
+    update.message.reply_text(text_length)
+NameError: name 'text_length' is not defined
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 32, in get_answer
+    number_of_spaces += 1
+UnboundLocalError: local variable 'number_of_spaces' referenced before assignment
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 33, in get_answer
+    number_of_spaces += 1
+UnboundLocalError: local variable 'number_of_spaces' referenced before assignment
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 33, in get_answer
+    number_of_spaces += 1
+UnboundLocalError: local variable 'number_of_spaces' referenced before assignment
+telegram.ext.dispatcher-ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\Анатолий Бородулин\AppData\Local\Programs\Python\Python35\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "simplebot.py", line 33, in get_answer
+    number_of_spaces += 1
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'
+telegram.ext.updater-ERROR-Error while getting Updates: Timed out
+telegram.ext.updater-WARNING-Exiting immediately!
